@@ -1,6 +1,6 @@
 body{
-    background-color: rgb(161, 39, 139);
-    font-family:Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    font-family:'Montserrat';
     margin: 0px;
     font-size: 1.5vw;
 }
@@ -9,22 +9,29 @@ body{
 
 margin: 0px;
 padding: 8px;
-font-family: 'Fredoka One', sans-serif;
-box-shadow: 8px 8px 10px 3px rgb(137, 77, 3);
+font-family: 'Yeserva One';
 width: 25%;
 border-radius: 40%;
+font-size: 7vw;
 }
 
 ul{
     margin: 0px;
+    text-align: left;
+}
+
+h5{
+    text-align: center;
+    color: #352d1a;
 }
 body > header{
-    background-color: rgb(224, 153, 22);
+    background-color: #cec4af;
     color: white;
     display: flex;
-    height: 10vh;
+    height: 15vh;
     align-items: center;
     justify-content: space-around;
+    font-family: 'Montserrat';
 
 }
 
@@ -33,11 +40,19 @@ body > header{
 }
 
 #nav-ul > li{
-    padding: 8px;
+    padding: 5px;
+    list-style: none ;
+    text-decoration: none
 }
+
 body > header > nav > ul {
     list-style: none ;
     text-decoration: none;
+}
+
+ul{
+    list-style: none ;
+    text-decoration: none
 }
 
 
@@ -45,21 +60,33 @@ body > header > nav > ul {
     color: white;
     text-decoration:none;
     padding: 15px;
-    border: 1px solid white;
-    border-radius: 20%;
+    border-radius: 15%;
+    font-family: 'Yeserva';
+    font-size: 1vw;
 }
 body > main article{
-    width: 70%;
+    width: 90%;
     margin: auto;
+    color: #352d1a;
+    font-family: 'Montserrat';
 }
 
 #main-content{
     display: flex;
     justify-content: space-around;
+    list-style: none ;
+    text-decoration: none
 }
 
 #main-content > div{
     width: 70%;
+    list-style: none ;
+    text-decoration: none
+}
+
+section > header > nav > ul > li > a{
+    list-style: none ;
+    text-decoration: none
 }
 
 form{
@@ -71,7 +98,7 @@ h2{
 }
 
 body > footer{
-    background-color: rgb(224, 153, 22);
+    background-color: #cec4af;
     display: flex;
 }
 
@@ -92,4 +119,18 @@ img{
 #footer-ul > div > li > a{
     text-decoration: none;
     color: white;
+    font-size: 1vw;
+    font-family: 'Yeserva One';
+}
+
+article > header{
+    text-align: left;
+}
+
+article > footer{
+    font-size: 1vw;
+    font-family: 'Yeserva One';
+}
+main{
+    font-size: 1vw;
 }
